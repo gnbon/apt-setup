@@ -1,0 +1,20 @@
+[user]
+	name = gnbon
+	email = borngunk7061@naver.com	
+[core]
+	safecrlf = false
+[alias]
+	a = add .
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	p = push origin
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	
+	
+	
+	
+	
+	
+	
