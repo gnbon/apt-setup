@@ -1,0 +1,21 @@
+# ADD CUSTOM ALIAS
+
+# Set ls alias
+alias l="ls -F"
+alias ls="ls -F"
+alias la="ls -alF"
+alias ll="ls -lF"
+alias ls='ls -F --color=auto'
+
+# Set apt alias
+alias update="sudo apt-get update && sudo apt-get dist-upgrade"
+alias install="sudo apt-get install -y"
+
+# Set cd alias
+alias p="cd .."
+alias h="cd ~"
+
+# Set safe alias
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
