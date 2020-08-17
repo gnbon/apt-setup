@@ -1,4 +1,4 @@
-# ADD CUSTOM ALIAS
+# Add custom alias
 
 # Set ls alias
 alias l="ls -F"
@@ -19,3 +19,6 @@ alias h="cd ~"
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+
+# Set misc alias
+alias ccat='pygmentize -g'

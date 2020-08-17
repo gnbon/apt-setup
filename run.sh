@@ -45,7 +45,9 @@ function install_chrome() {
 function install_gdb() {
 	sudo apt install -y install_gdb
 	git clone https://github.com/longld/peda.git ~/App/peda
+	git clone https://github.com/pwndbg/pwndbg.git ~/App/pwndbg && ~/App/pwndbg/setup.py
 	echo "source ~/App/peda/peda.py" >> ~/.gdbinit
+	echo "source ~/App/pwndbg/gdbinit.py" >> ~/.gdbinit
 }
 
 function install_vscode() {
