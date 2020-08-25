@@ -1,6 +1,6 @@
 #!/bin/sh
 
-$ZSH_CUSTOM=~/.oh-my-zsh/custom
+ZSH_CUSTOM=~/.oh-my-zsh/custom
 
 # install zsh & oh-my-zsh
 sudo apt install -y zsh 
