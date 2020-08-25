@@ -2,20 +2,23 @@
   <img width=600 src="./image.png">
 </p>
 
-<h1 align="center">👹ttuk-ttak.SH</h1>
+<h1 align="center">👹 ttuk-ttak.sh</h1>
 
 <p align="center">
-  <b>A set of automation script for my Dev. environment</b>
+  <b>a set of Automation script for my Dev environment</b>
 </p>
 
 <br/>
 
 ## Installation  
 
+<b>Just type
 ```bash
-$ just run.sh
+$ ./run.sh
 ```
 
 <br/>
 
-## 
+## Inspired by
+* https://github.com/denysdovhan/spaceship-prompt
+* https://github.com/zaiste/tmuxified
