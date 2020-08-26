@@ -3,8 +3,9 @@
 ZSH_CUSTOM=~/.oh-my-zsh/custom
 
 # install zsh & oh-my-zsh
-sudo apt install -y zsh 
+sudo apt install -y zsh curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+chsh -s /usr/bin/zsh
 
 # install powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1

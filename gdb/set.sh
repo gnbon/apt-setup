@@ -1,4 +1,5 @@
-# in case having pwd issue
+#!/bin/sh
+
 echo "[+] Setting .gdbinit..."
 cp gdbinit ~/.gdbinit
 
@@ -20,4 +21,4 @@ cp gdbinit ~/.gdbinit
     exit
 }
 
-echo "[+] Done"
+echo "[+] Setting finished!"
