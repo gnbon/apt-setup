@@ -22,3 +22,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git "$ZSH_CUSTOM/plug
 
 # copy zshrc
 cp zshrc ~/.zshrc
+sed -i 's/USERNAME/'"$USER"'/g' ~/.zshrc
+
+# all done
+zsh
