@@ -112,8 +112,8 @@ source $ZSH/oh-my-zsh.sh
 # Set ls alias
 alias l="ls -F"
 alias ls="ls -F"
-alias la="ls -alF"
-alias ll="ls -lF"
+alias la="ls -alhF"
+alias ll="ls -lhF"
 alias ls='ls -F --color=auto'
 
 # Set apt alias
