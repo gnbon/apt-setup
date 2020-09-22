@@ -7,6 +7,10 @@ imwheel -k
 # typing speed
 xset r rate 250
 
+# Hangul key bindings
+xmodmap -e "remove mod1 = Alt_R" 
+xmodmap -e "keycode 0x6c = Hangul"
+
 # install icon theme numix-circle
 sudo apt install gnome-tweak-tool numix-icon-theme-circle
 
