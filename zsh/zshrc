@@ -122,7 +122,7 @@ alias install="sudo apt install -y"
 alias remove="sudo apt remove -y"
 
 # Set cd alias
-alias p="cd -"
+alias p="cd - 1>/dev/null"
 alias h="cd ~"
 
 # Set safe alias
