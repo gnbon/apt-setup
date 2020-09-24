@@ -117,12 +117,12 @@ alias ll="ls -lhF"
 alias ls='ls -F --color=auto'
 
 # Set apt alias
-alias update="sudo apt -y update && sudo apt -y dist-upgrade"
+alias up="sudo apt -y update && sudo apt -y dist-upgrade"
 alias install="sudo apt install -y"
 alias remove="sudo apt remove -y"
 
 # Set cd alias
-alias p="cd .."
+alias p="cd -"
 alias h="cd ~"
 
 # Set safe alias
