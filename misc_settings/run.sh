@@ -8,8 +8,8 @@ imwheel -k
 xset r rate 250
 
 # Hangul key bindings
-xmodmap -e "remove mod1 = Alt_R" 
-xmodmap -e "keycode 0x6c = Hangul"
+sudo sed -i 's/<RALT> = 108;/\/\/ <RALT> = 108;/g' /usr/share/X11/xkb/keycodes/evdev
+sudo sed -i 's/<HNGL> = 130;/<HNGL> = 108;/g' /usr/share/X11/xkb/keycodes/evdev
 
 # install icon theme numix-circle
 sudo apt install gnome-tweak-tool numix-icon-theme-circle
