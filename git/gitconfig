@@ -3,6 +3,7 @@
 	email = borngunk7061@naver.com	
 [core]
 	safecrlf = false
+	editor = vim
 [alias]
 	a = add .
 	st = status
@@ -12,4 +13,4 @@
 	p = push
 	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 [credential]
-        helper = store
+    helper = store		
