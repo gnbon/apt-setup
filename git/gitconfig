@@ -2,8 +2,9 @@
 	name = gnbon
 	email = borngunk7061@naver.com	
 [core]
-	safecrlf = false
 	editor = vim
+	autocrlf = false
+	safecrlf = warn
 [alias]
 	a = add .
 	st = status
