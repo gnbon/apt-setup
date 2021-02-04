@@ -8,7 +8,7 @@ export ZSH="/home/USERNAME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -119,18 +119,12 @@ alias ls='ls -F --color=auto'
 # Set apt alias
 alias up="sudo apt -y update && sudo apt -y dist-upgrade"
 alias install="sudo apt install -y"
-alias remove="sudo apt remove -y"
+alias uninstall="sudo apt remove -y"
 
 # Set cd alias
 alias p="cd - 1>/dev/null"
 alias h="cd ~"
 
 # Set safe alias
-alias cp="cp -i"
-alias mv="mv -i"
 alias rm="rm -i"
-
-# Set misc alias
-alias ccat='pygmentize -O style=monokai -f terminal -g'
-
 # }}}
